@@ -1,0 +1,39 @@
+.nav ul{
+    margin-top: 3%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    background-color: rgb(81, 196, 216);
+}
+
+ /* Add a black background color to the top navigation */
+.nav {
+    background-color: rgb(81, 196, 216);
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    position: sticky;
+    top: 85px;
+    z-index: 100;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .nav a {
+    border: 2px solid rgb(81, 196, 216);
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Change the color of links on hover */
+  .nav a:hover {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #29337e;
+    color: white;
+  }
+  

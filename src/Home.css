@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+.home_image{
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+
+.home_row{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
