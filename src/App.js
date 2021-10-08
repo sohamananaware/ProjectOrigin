@@ -4,6 +4,7 @@ import Header from './Header';
 import Home from './Home';
 import Info from './Info';
 import Checkout from './Checkout';
+import Login from './Login'
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,19 +18,19 @@ function App() {
     <Router>
 
       <div className="app">
-        <Switch>
-          <Route path='/checkout'>
-            <Info/>
-            <Header/>
-            <Navbar/>
-            <Checkout/>
-          </Route>
+        <Info/>
+        <Header/>
+        <Navbar/>
 
+        <Switch>
+          <Route path='/login'>
+                <Login/>
+          </Route>
+          <Route path='/checkout'>
+                <Checkout/>
+          </Route>
           <Route path='/'>
-            < Info />
-            < Header />
-            <Navbar/>
-            <Home />
+              <Home/>
           </Route>
         </Switch>
       </div>

@@ -1,0 +1,25 @@
+.checkoutproduct{
+    display: flex;
+    width: 100%;
+
+}
+
+.checkoutproduct_image{
+    width: 25%;
+    padding: 30px;
+}
+
+.checkoutproduct_info{
+padding-top: 30px;
+}
+
+.checkoutproduct_info button{
+        background-color:  #1a2157;
+        border: 1px solid;
+        margin-top: 10px;
+        border-color: #6abbcf;
+        color: white;
+        padding: 3px;
+        border-radius: 5px;
+        
+}
