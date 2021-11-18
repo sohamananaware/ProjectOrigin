@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: flex-end;
     margin: 5px;
-    padding: 15px; 
+    padding: 15px 50px; 
     width:20%;
     max-height: auto;
     min-width: 100px;  
@@ -13,11 +13,9 @@
 }
 
 .product img{
-    max-height: 200px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
-    padding: 0 auto;
 
 }
 
